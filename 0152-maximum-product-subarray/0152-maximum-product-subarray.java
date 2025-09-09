@@ -13,7 +13,6 @@ class Solution {
               ans=Math.max(ans,0);
               continue;
             } 
-
             leftproduct*=nums[i];
             ans=Math.max(ans,leftproduct);
         }
